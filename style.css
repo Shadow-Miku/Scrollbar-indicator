@@ -1,0 +1,69 @@
+img {
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.list {
+    /* column-count: 3; */
+    columns: 500px;
+}
+
+body {
+    background: linear-gradient(to right);
+    background-size: 200% 200%;
+    animation: waveColors 10s ease infinite;  /* Ajustar duración para dinamismo */
+}
+
+@keyframes waveColors {
+    0%{
+        background: #e0110a;
+    }
+    10%{
+        background: #e0b000;
+    }
+    15%{
+        background: #f0f000;
+    }
+    25%{
+        background: #ff8800;
+    }
+    40%{
+        background: #f0f000;
+    }
+    50%{
+        background: #cee216;
+    }
+    55%{
+        background: #32cce1;
+    }
+    60%{
+        background: #100ce2;
+    }
+    65%{
+        background: #910ae0;
+    }
+    75%{
+        background: #49e20c;
+    }
+    85%{
+        background: #e0b000;
+    }
+    95%{
+        background: #e00aaa;
+    }
+    100%{
+        background: #db124e;
+    }
+}
+
+.indicator{
+    background: linear-gradient(
+        to right,#32cce1,#a221d4,#262b2a);
+
+    height: 20px;
+    border-radius: 4px;
+    width: 20%;
+    position: fixed;
+    top: 0px;
+}
+
